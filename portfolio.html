@@ -17,9 +17,14 @@
     <!-- Header -->
     <header class="row">
         <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand">Jose Cordova</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-link" href="index.html">About</a>
@@ -32,19 +37,19 @@
         </div>
     </header>
     <br>
-    <div class="container">
+    <main class="container">
         <!-- Heading -->
-        <div class="row">
+        <section class="row">
             <div class="col-md-12">
                 <h1 class="text-center">Portfolio</h1>
             </div>
-        </div>
+        </section>
         <hr style="height:10px">
         <br>
         <!-- Portfolio content -->
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card border-dark mb-3 rounded float-start" style="width: 18rem;">
+        <section class="row portfolioCont">
+            <figure class="col-md-4">
+                <div class="card border-dark mb-3 rounded float-start gitHubPort" style="width: 18rem;">
                     <a target="_blank" href="https://josecordova42.github.io/JoseCordovaHomework1/"><img
                             src="images/Horiseon.png" class="card-img-top" alt="Horiseon image"></a>
                     <div class="card-body">
@@ -52,9 +57,9 @@
                             refactoring.</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card border-dark mb-3 rounded mx-auto d-block" style="width: 18rem;">
+            </figure>
+            <figure class="col-md-4">
+                <div class="card border-dark mb-3 rounded mx-auto d-block soundCloudPort" style="width: 18rem;">
                     <a target="_blank" href="https://soundcloud.com/mexicution"><img src="images/soundcloud.jpg"
                             class="card-img-top" alt="Soundcloud image"></a>
                     <div class="card-body">
@@ -62,18 +67,18 @@
                             years.</p>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card border-dark mb-3 rounded float-end" style="width: 18rem;">
+            </figure>
+            <figure class="col-md-4">
+                <div class="card border-dark mb-3 rounded float-end moreToComePort" style="width: 18rem;">
                     <img src="images/stay-tuned-3.jpg" class="card-img-top" alt="Stay tuned in neon lights">
                     <div class="card-body">
                         <p class="card-text">I just recently started coding, and can't wait to work on more projects.
                             More to come!</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
+            </figure>
+        </section>
+    </main>
     <!-- Footer -->
     <footer class="row">
         <div class="col-md-12 fixed-bottom bg-dark">

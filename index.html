@@ -17,9 +17,14 @@
     <!-- Header -->
     <header class="row">
         <div class="col-md-12">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
                 <div class="container-fluid">
                     <a class="navbar-brand">Jose Cordova</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav justify-content-end">
                             <a class="nav-link active" aria-current="page" href="index.html">About</a>
@@ -32,22 +37,22 @@
         </div>
     </header>
     <br>
-    <div class="container">
+    <main class="container">
         <!-- Heading -->
-        <div class="row">
+        <section class="row">
             <div class="col-md-12">
                 <h1 class="text-center">About Me</h1>
             </div>
-        </div>
+        </section>
         <hr style="height:10px">
         <br>
         <!--About Me content -->
         <main class="row">
-            <div class="col-md-4">
+            <figure class="col-md-4 aboutMeImage">
                 <img src="images/self1.jpg" class="rounded-circle rounded mx-auto d-block border border-5 border-dark"
                     style="width:300px;height:370px;" alt="image of Jose Cordova">
-            </div>
-            <div class="col-md-8">
+            </figure>
+            <section class="col-md-8 aboutMePara">
                 <p>
                     Hi, I'm Jose Cordova.
                 </p>
@@ -63,16 +68,17 @@
                     When I'm not coding, though, I enjoy making music in my amateur home-studio. I've been playing
                     guitar for about 20 years, and don't see myself stopping anytime soon.
                 </p>
-            </div>
+            </section>
         </main>
         <br>
-    </div>
+    </main>
     <!-- Footer -->
     <footer class="row">
         <div class="col-md-12 fixed-bottom bg-dark">
             <p class="text-center">&copy Copyright 2020</p>
         </div>
     </footer>
+
 </body>
 
 </html>
