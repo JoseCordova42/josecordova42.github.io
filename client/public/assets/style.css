@@ -1,0 +1,36 @@
+/* Header */
+
+header {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+}
+
+p.text-center {
+    color: white;
+    margin-top: 15px;
+}
+
+ /* Media Query */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+}
+    /* index.html */
+    .aboutMeImage {
+        width: 350px;
+    }
+
+    .aboutMePara {
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
+    /* portfolio.html */
+    .portfolioCont {
+        margin-bottom: 50px;
+    }
