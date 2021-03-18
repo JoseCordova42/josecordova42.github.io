@@ -65,7 +65,7 @@ function Portfolio() {
 
             <section className="row portfolioCont">
                 <figure className="col-lg-4">
-                    <div className="card border-dark mb-3 rounded float-start gitHubPort" style={hwStyle}>
+                    <div className="card border-dark mb-3 rounded float-start gitHubPort" style={hw2Style}>
                         <a target="_blank" rel="noreferrer" href="https://josecordova42.github.io/JoseCordovaHomework1/"><img
                             src={horiseon} className="card-img-top" alt="Horiseon"
                             style={hwStyle} /></a>

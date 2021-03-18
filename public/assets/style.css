@@ -16,6 +16,10 @@ p.text-center {
     margin-top: 15px;
 }
 
+.card-text, .card-title {
+    text-align: left;
+}
+
  /* Media Query */
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -28,6 +32,7 @@ p.text-center {
     .aboutMePara {
         margin-top: 20px;
         margin-bottom: 50px;
+        text-align: left;
     }
 
     /* portfolio.html */
