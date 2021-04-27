@@ -21,9 +21,9 @@ function Navbar() {
                                 <Link
                                     className={window.location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}
                                     to="/portfolio">Portfolio</Link>
-                                <Link
+                                {/* <Link
                                     className={window.location.pathname === "/contact" ? "nav-link active" : "nav-link"}
-                                    to="/contact">Contact</Link>
+                                    to="/contact">Contact</Link> */}
                             </div>
                         </div>
                     </div>

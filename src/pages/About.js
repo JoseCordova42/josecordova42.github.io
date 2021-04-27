@@ -27,8 +27,8 @@ function About() {
                         Up-and-coming coder, musician, weight-lifter, and gamer.
                 </p>
                     <p>
-                        I'm currently enrolled in an immersive coding program offered by University of Texas Austin where
-                        I'm learning full-stack web-development. The more I code the more I'm finding out how much I enjoy
+                        I was recently enrolled in an immersive coding program offered by University of Texas Austin where
+                        I learned full-stack web-development. We finished in late March of 2021. The more I code the more I'm finding out how much I enjoy
                         it, so I'm excited to keep learning.
                 </p>
                     <p>
@@ -41,6 +41,12 @@ function About() {
                     <p>
                         LinkedIn: <a href="https://www.linkedin.com/in/jose-cordova-78b2b21bb/" target="_blank" rel="noreferrer">Jose
                         Cordova</a>
+                    </p>
+                    <p>
+                        Email: <a href="mailto: jose42cordova@gmail.com">Contact Me!</a>
+                    </p>
+                    <p>
+                        <a href="https://docs.google.com/document/d/1t_HOd500fsEy_gGMajS2wlcOw3WWnPANQiadt6a4gVs/edit?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
                     </p>
                 </section>
             </section>

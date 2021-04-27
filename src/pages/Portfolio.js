@@ -1,4 +1,5 @@
 import React from "react";
+import champ from "../images/ChampTracker.png";
 import deed from "../images/DeedsDone.png";
 import marvel from "../images/Marvel-Basement-portfolio.png";
 import horiseon from "../images/Horiseon.png";
@@ -26,6 +27,26 @@ function Portfolio() {
                 <div className="card mb-3">
                     <div className="row g-0">
                         <div className="col-md-3">
+                            <a href="https://championship-tracker.herokuapp.com/" target="_blank" rel="noreferrer"><img
+                                src={champ} alt="Champ Tracker"
+                                style={projectStyle} /></a>
+                        </div>
+                        <div className="col-md-9">
+                            <div className="card-body">
+                                <h5 className="card-title">Championship Tracker</h5>
+                                <p className="card-text">An application for building and tracking e-sports/sports leagues. 
+                                The user can create teams, add players to teams, track stats, view/update leaderboards, 
+                                and search for other leagues to view.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section className="row">
+                <div className="card mb-3">
+                    <div className="row g-0">
+                        <div className="col-md-3">
                             <a href="https://deeddone.herokuapp.com/" target="_blank" rel="noreferrer"><img
                                 src={deed} alt="Deeds Done"
                                 style={projectStyle} /></a>
@@ -33,7 +54,7 @@ function Portfolio() {
                         <div className="col-md-9">
                             <div className="card-body">
                                 <h5 className="card-title">Deeds Done</h5>
-                                <p className="card-text">Application that allows you to post good deeds for a state, or take
+                                <p className="card-text">This application allows you to post good deeds for a state in the U.S., or take
                                 suggestions of good deeds to accomplish in your area. Follow the link, suggest some new
                                 good deeds for people, and maybe do one in your area!</p>
                             </div>
@@ -53,10 +74,9 @@ function Portfolio() {
                         <div className="col-md-9">
                             <div className="card-body">
                                 <h5 className="card-title">Marvel Basement</h5>
-                                <p className="card-text">Application for searching Marvel characters utilizing Giphy and
+                                <p className="card-text">This is an application for searching Marvel characters utilizing Giphy and
                                 Marvel's respective API's. Follow the link and look up some info about your favorite
-                                Marvel
-                                characters!</p>
+                                Marvel characters!</p>
                             </div>
                         </div>
                     </div>
@@ -91,7 +111,7 @@ function Portfolio() {
                         <img src={stayTuned} className="card-img-top" alt="Stay tuned in neon lights"
                             style={hwStyle} />
                         <div className="card-body">
-                            <p className="card-text">I just recently started coding, and can't wait to work on more projects.
+                            <p className="card-text">I just recently started coding and can't wait to work on more projects.
                             More to come!</p>
                         </div>
                     </div>
